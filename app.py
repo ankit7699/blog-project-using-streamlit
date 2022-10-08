@@ -1,9 +1,6 @@
 import streamlit as st
 import sqlite3
 import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib
-matplotlib.use('Agg')
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
 import en_core_web_sm
