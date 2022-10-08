@@ -3,8 +3,6 @@ import sqlite3
 import pandas as pd
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
-import en_core_web_sm
-nlp = en_core_web_sm.load()
 
 conn = sqlite3.connect("data.db")
 c = conn.cursor()
